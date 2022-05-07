@@ -1,0 +1,25 @@
+.gird-container{
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-areas:
+        "sideA-header"
+        "sideA-main"
+        "sideA-footer";
+
+    display: grid;
+    background-color: #808080;
+}
+
+
+.header{
+    grid-area: sideA-header;
+    display: inline-block;
+    position: fixed;
+}
+
+.main{
+    grid-area: sideA-main;
+}
+
+.footer{
+    grid-area: sideA-footer;
+}

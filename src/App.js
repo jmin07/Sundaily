@@ -1,11 +1,14 @@
 import './App.css';
+import Main from './main';
+import SideA from './sidebar-a';
+import SideB from './sidebar-b';
 
 function App() {
   return (
     <div className="grid-container">
-      <div className='sidebar-a grid-item'>Sidebar A</div>
-      <div className='sidebar-b grid-item'>Sidebar B</div>
-      <div className='main grid-item'>Main</div>
+      <SideA ></SideA>      
+      <Main></Main>
+      <SideB></SideB>
     </div>
   );
 }
