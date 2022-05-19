@@ -1,34 +1,7 @@
 /* 영역 이름 사용 */
-.grid-container{
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  /* grid-template-rows: 1fr 1fr 1fr; */
-  grid-template-areas:
-    "sidebar-a  main  sidebar-b"
-    "sidebar-a  main  sidebar-b";
-    /* "sidebar-a  main  sidebar-b"
-    "sidebar-a  main  sidebar-b"; */
-  
+.App{
+  margin: 0;
+  padding: 0;
+  width: 100;
   height: 100vh;
-  /* width: 100vh; */
-  /* margin: 0;
-  border: 0; */
-};
-
-/* .grid-item{
-  height: 100vh;
-  width: 100vh;
-} */
-
-
-.sidebar-a { 
-  grid-area: sidebar-a;
-}
-
-.sidebar-b { 
-  grid-area: sidebar-b; 
-}
-
-.main { 
-  grid-area: main;
 }
