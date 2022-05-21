@@ -1,5 +1,157 @@
-.Navbar{
+.sidebar{
+    top:0;
+    left:0;
+    width: 250px;
+    height: 100vh;
     display: flex;
-    top: 0;
-    background-color: aqua;
+    position: fixed;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: rgb(211,211,211, 0.7);
 }
+
+/* .sidebar.inactive{
+    top:0;
+    left:-100%;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    background-color: rgb(211,211,211, 0.7);
+} */
+
+/* ----------------- container ----------------- */
+.sidebar-header{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+}
+
+.sidebar-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+}
+
+.sidebar-footer{
+    display: flex;
+    height: 10%;
+}
+
+/* ------------------ item ------------------- */
+
+/* ----------- header ------------ */
+
+.header-Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter;
+    color: black;
+}
+
+
+.header-Text{
+    display: flex;
+    width: 80%;
+    /* margin-right: 10px; */
+    /* align-items: center; */
+
+    font-style: italic;
+    font-size: 19px;
+    font-weight: bolder;
+    text-decoration : underline
+}
+
+/* --------------- main ----------------- */
+
+/* header */
+.main-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+.menu-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+}
+
+.menu-Button{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 20%;
+    height: 35%;
+    
+    font-size: 25px;
+    color: black;
+}
+
+.menu-Button:active{
+    color: gray;
+    transition: 100ms;
+}
+
+
+.main-main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+
+
+.logout-Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.logout{
+    color: white;
+    background-color: #555555;
+    border-radius: 5px;
+}
+
+
+/* .modal.on {
+    display: flex;
+    z-index: 7;
+}
+
+.modal.off {
+    transform: translateY(0);
+    opacity: 1;
+    z-index: -1000;
+    transition: all 0.3s;
+} */
