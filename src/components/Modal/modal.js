@@ -9,10 +9,6 @@ function Modal(){
                 <div className='Modal content'>
                     <h2>갤러리</h2>
                     <h2>캘린더</h2>
-                    {/* <div className='gallery'>
-                    </div>
-                    <div className='calendar'>
-                    </div> */}
                 </div>
             </div>
         </>
